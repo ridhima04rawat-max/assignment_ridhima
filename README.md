@@ -12,8 +12,8 @@ Note: For this submission, Groq + Tavily were primarily used due to free tier av
 
 ## Features
 
-- Web search using Tavily API
-- Extensible provider architecture for Groq/OpenAI/Gemini and Tavily/Serper
+- Built using Python, Groq API, and Tavily API
+- Provider flexible architecture designed for future OpenAI/Gemini and Serper integration
 - Citation grounded answer generation
 - Async orchestration using asyncio
 - Session and conversation persistence using SQLite
