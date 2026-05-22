@@ -105,8 +105,9 @@ The generated evaluation results are stored in:
 evaluation_report.md
 ```
 
----
+The submitted evaluation_report.md file was generated directly by running eval_harness.py .
 
+---
 ## Run the Application
 
 
