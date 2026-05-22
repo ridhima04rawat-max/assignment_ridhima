@@ -2,11 +2,11 @@
 
 A Python based Deep Research Agent built for the Sarvam AI Assignment.
 
-The system performs autonomous web research, retrieves webpage content, selects relevant context, and generates citation-grounded responses using LLM based synthesis.
+The system performs autonomous web research, retrieves webpage content, selects relevant context, and generates citation grounded responses using LLM based synthesis.
 
 Built entirely without LangChain, LangGraph, CrewAI, LlamaIndex, or other agent orchestration frameworks.
 
-Note: For this submission, Groq + Tavily were primarily used due to free-tier availability and rate limit considerations. But the architecture is designed to be provider flexible and can be extended to support multiple LLM and search providers (Groq, OpenAI, Gemini, Tavily, Serper). 
+Note: For this submission, Groq + Tavily were primarily used due to free tier availability and rate limit considerations. The architecture is designed to be extensible and provider flexible, making it easier to integrate additional LLM and search providers such as OpenAI, Gemini, and Serper in future iterations.
 
 ---
 
@@ -80,6 +80,14 @@ $env:GROQ_API_KEY="YOUR_GROQ_API_KEY"
 $env:TAVILY_API_KEY="YOUR_TAVILY_API_KEY"
 ```
 
+
+---
+
+## Initialize Database
+
+```bash
+python models.py
+```
 
 
 
