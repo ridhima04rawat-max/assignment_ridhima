@@ -1,6 +1,6 @@
 # Deep Research Agent
 
-A Python based Deep Research Agent built for the Sarvam AI Assignment.
+A Python based Deep Research Agent for web research and citation grounded response generation.
 
 The system performs autonomous web research, retrieves webpage content, selects relevant context, and generates citation grounded responses using LLM based synthesis.
 
