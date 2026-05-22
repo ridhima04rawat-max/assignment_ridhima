@@ -101,7 +101,7 @@ evaluation_report.md
 
 ## Run the Application
 
-Open a new terminal after evaluation setup and run:
+
 
 ```bash
 python -m streamlit run app.py
